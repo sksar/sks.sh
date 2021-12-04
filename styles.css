@@ -1,0 +1,44 @@
+@import url('https://rsms.me/raster/raster2.css?v=20');
+
+:root {
+    --fontSize: 16px;
+    --primaryColor: #FEED01;
+    --blackColor: #1F1F1F;
+}
+
+html,
+body {
+    background-color: var(--blackColor);
+    color: #fff;
+}
+
+.center {
+    text-align: center;
+}
+
+.center img {
+    margin: 0 auto;
+}
+
+.right {
+    text-align: right;
+}
+
+.page-wrapper {
+    max-width: 70rem;
+    margin: 0 auto;
+}
+
+/* HEADER */
+
+header h1.large span {
+    display: inline-block;
+    padding: 0 1rem;
+    background-color: var(--primaryColor);
+    color: var(--blackColor);
+}
+
+#DP {
+    border-radius: 25px;
+    max-width: 200px;
+}
